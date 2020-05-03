@@ -7,8 +7,8 @@ public class ComparingStrings {
              String str1 = in.nextLine();
         System.out.println("Enter the second string");
              String str2 = in.nextLine();
-        int result = str1.compareTo(str2);
-            if(result == 0) {
+       
+            if( str1.compareTo(str2) == 0) {
                 System.out.println("The strings are equal");
             }
             else
