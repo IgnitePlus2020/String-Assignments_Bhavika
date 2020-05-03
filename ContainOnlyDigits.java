@@ -5,7 +5,7 @@ public class ContainOnlyDigits {
         Scanner in = new Scanner(System.in);
         System.out.println(" Enter a String. ");
         String str = in.nextLine();
-        if(str.matches("[0-9]+") && str.length() > 2) {
+        if(str.matches("[0-9]+")) {
             System.out.println("String contains only digits!");
         }
         else
